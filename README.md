@@ -246,6 +246,9 @@ terraform --version
 After these prerequisites are ready, we can move to the **next section: AWS Infrastructure Setup using Terraform**.
 
 
+# Section 2: Run your project first locally without kubernetes
+
+
 
 
 
