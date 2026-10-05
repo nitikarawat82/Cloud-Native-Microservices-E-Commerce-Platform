@@ -246,7 +246,48 @@ terraform --version
 After these prerequisites are ready, we can move to the **next section: AWS Infrastructure Setup using Terraform**.
 
 
-# Section 2: Run your project first locally without kubernetes
+# 🐳 Section 2: Run the Application Locally Without Kubernetes
+
+## Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/open-telemetry/opentelemetry-demo.git
+```
+
+## Step 2: Go to the Repository
+
+```bash
+cd opentelemetry-demo
+```
+
+## Step 3: Check Docker Compose
+
+```bash
+docker compose version
+```
+
+## Step 4: Run the Application
+
+```bash
+docker compose up -d
+```
+<img width="1186" height="618" alt="image" src="https://github.com/user-attachments/assets/63c0b8f2-161c-4764-bba5-29ce6f7912ca" />
+
+Docker Compose runs the multiple microservices of the OpenTelemetry Demo together.
+
+**Access the application:**
+
+```text
+http://EC2-Public-IP:8080/
+```
+> **Note:** Make sure port `8080` is allowed in the EC2 Security Group.
+
+<img width="1893" height="612" alt="image" src="https://github.com/user-attachments/assets/2fd79660-7bf3-479c-bfd2-44ee1694ad29" />
+
+
+
+
+
 
 
 
