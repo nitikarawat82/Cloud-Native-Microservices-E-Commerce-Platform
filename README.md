@@ -1,17 +1,6 @@
 # 🚀 Cloud-Native Microservices E-Commerce Platform
 
-This project demonstrates the complete **DevOps lifecycle** for a microservices-based e-commerce application.
-
-For this project, we are using the **OpenTelemetry Demo application** as our e-commerce application. The OpenTelemetry Demo provides a realistic microservices-based application that we can use to implement and demonstrate various DevOps practices.
-
-The project covers **containerization, CI/CD automation, Infrastructure as Code, Kubernetes deployment, DevSecOps, and monitoring/observability** using AWS and industry-standard tools.
-
-
-# 🎯 Project Objective
-
-The objective of this project is to take the **OpenTelemetry Demo e-commerce application** and implement an **end-to-end DevOps workflow**, covering:
-
-**Source Code → CI/CD → Security → Docker → Kubernetes → AWS → Monitoring & Observability**.
+This project demonstrates the complete **DevOps lifecycle** for the **OpenTelemetry Demo**, a realistic microservices-based e-commerce application. The project focuses on implementing an **end-to-end DevOps workflow** covering **containerization, CI/CD automation, Infrastructure as Code, Kubernetes deployment, DevSecOps, and monitoring/observability** using AWS and industry-standard tools, following the flow: **Source Code → CI/CD → Security → Docker → Kubernetes → AWS → Monitoring & Observability**.
 
 
 # 🛒 Application Used
@@ -283,6 +272,10 @@ http://EC2-Public-IP:8080/
 > **Note:** Make sure port `8080` is allowed in the EC2 Security Group.
 
 <img width="1893" height="612" alt="image" src="https://github.com/user-attachments/assets/2fd79660-7bf3-479c-bfd2-44ee1694ad29" />
+
+# 🔹 Section 3: Understanding Microservices
+
+In this section, we will **perform practical work on different microservices** of the OpenTelemetry Demo, such as **Product Catalog, Cart, and Recommendation**. These microservices are written in **different programming languages**, giving us hands-on experience working with a multi-language microservices application.
 
 
 
