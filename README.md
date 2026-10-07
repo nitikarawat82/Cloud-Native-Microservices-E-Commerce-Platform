@@ -1,4 +1,4 @@
-# 🚀 End-to-End DevOps Implementation for E-Commerce Application
+# 🚀 Cloud-Native Microservices E-Commerce Platform
 
 This project demonstrates the complete **DevOps lifecycle** for a microservices-based e-commerce application.
 
